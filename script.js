@@ -31,3 +31,8 @@ myCat.purr();  // Outputs: purr
 myDog.bark();  // Outputs: woof
 myCat.makeSound();  // Outputs: Persian makes a sound
 myDog.makeSound();  // Outputs: Labrador makes a sound
+let myCat = new Cat("Siamese");
+let myDog = new Dog("Golden Retriever");
+
+myCat.makeSound();  // Should output: The Siamese makes a sound
+myDog.makeSound();  // Should output: The Golden Retriever makes a sound
