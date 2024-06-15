@@ -29,3 +29,18 @@ myCat.purr();  // Outputs: purr
 myDog.bark();  // Outputs: woof
 myCat.makeSound();  // Outputs: Persian makes a sound
 myDog.makeSound();  // Outputs: Labrador makes a sound
+describe('Cat', function() {
+  let myCat;
+
+  beforeEach(function() {
+    myCat = new Cat('Persian');
+  });
+
+  it('should purr', function() {
+    // Test that myCat.purr() works as expected
+  });
+
+  it('should make a sound', function() {
+    // Test that myCat.makeSound() works as expected
+  });
+});
