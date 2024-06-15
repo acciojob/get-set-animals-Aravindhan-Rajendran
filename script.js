@@ -2,9 +2,9 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
-	makeSound(){
-		console.log(this.species + " makes a sound");
-	}
+makeSound(){
+	console.log("The " + this.species + " makes a sound");
+}
 }
 
 class Dog extends Animal {
@@ -36,3 +36,8 @@ let myDog = new Dog("Golden Retriever");
 
 myCat.makeSound();  // Should output: The Siamese makes a sound
 myDog.makeSound();  // Should output: The Golden Retriever makes a sound
+let cat;
+
+beforeEach(() => {
+  cat = new Cat('Lion');
+});
