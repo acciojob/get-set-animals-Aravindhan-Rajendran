@@ -37,7 +37,4 @@ myDog.makeSound();  // Outputs: Labrador makes a sound
 myCat.makeSound();  // Should output: The Siamese makes a sound
 myDog.makeSound();  // Should output: The Golden Retriever makes a sound
 let cat;
-
-beforeEach(() => {
   cat = new Cat('Lion');
-});
